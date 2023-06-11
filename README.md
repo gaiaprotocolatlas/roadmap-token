@@ -1,4 +1,4 @@
-# membership-token
+# roadmap-token
 Construct(identifier, loyalty, loyaltyReceiver, marketFee, market, daoPassGovPercent, tradable, minCap, maxCap, price, mintStart, mintEnd, steps)
 
 1차 로드맵진행까지는 거래 불가, 플리핑 차단
@@ -45,3 +45,11 @@ NFT 멤버십은 민팅을 통해 자금을 조달하고, 로드맵을 수행합
 4. 민팅 과정에서 1인 1개의 민팅을 강제합니다.
 5. 해킹 피해를 예방하기 위해 Approve 기능을 제거합니다.
 6. 거래 기능을 토큰 차원에서 직접 제공하여 로열티를 보장합니다.
+
+
+OracleManager
+-> OnePerPersonToken
+-> GovernanceToken
+-> SelfTradeableToken
+-> MintableToken
+-> RoadmapToken
