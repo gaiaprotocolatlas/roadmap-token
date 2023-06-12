@@ -1,6 +1,6 @@
 # Roadmap-Token 🚀
 <div align="center">
-    <img src="[Imgur](https://i.imgur.com/RO8xrtI.png)" alt="Roadmap-Token Logo">
+    <img src="https://i.imgur.com/RO8xrtI.png" alt="Roadmap-Token Logo">
     <h3>An initiative to ensure adherence to roadmaps by NFT projects post-fundraising</h3>
 </div>
 
