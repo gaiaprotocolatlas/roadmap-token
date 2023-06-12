@@ -11,10 +11,8 @@
 - [Solution](#-solution)
 - [Features](#-features)
 - [Domain Structure](#-domain-structure)
-- [Project Folder and Structure](#-project-folder-and-structure)
 - [Roadmap Chart](#-roadmap-chart)
 - [Trading Options](#-trading-options)
-- [Document Writing and Revision History](#-document-writing-and-revision-history)
 - [How to Participate in the Project](#-how-to-participate-in-the-project)
 - [License](#-license)
 
