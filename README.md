@@ -1,70 +1,70 @@
 <div align="center">
-    <img src="https://i.imgur.com/RO8xrtI.png" alt="Roadmap-Token Logo">
-    <h3>An initiative to ensure adherence to roadmaps by NFT projects post-fundraising</h3>
+    <img src="https://i.imgur.com/RO8xrtI.png" alt="Roadmap-Token 로고">
+    <h3>펀드 모금 후 NFT 프로젝트의 로드맵을 따르는 것을 보장하는 방안</h3>
 </div>
 
-> Note: This program aims to manage safely the minting, transferring, trading, and advancement of the NFT projects to the next steps.
+> 주의: 이 프로그램은 NFT 프로젝트의 Minting, 이전, 거래, 그리고 다음 단계로의 진행을 안전하게 관리하는 것을 목표로 합니다.
 
 ---
 
-- [Motivation](#-motivation)
-- [Solution](#-solution)
-- [Features](#-features)
-- [Domain Structure](#-domain-structure)
-- [Roadmap Chart](#-roadmap-chart)
-- [Trading Options](#-trading-options)
-- [How to Participate in the Project](#-how-to-participate-in-the-project)
-- [License](#-license)
+- [동기](#-동기)
+- [해결책](#-해결책)
+- [기능](#-기능)
+- [도메인 구조](#-도메인-구조)
+- [로드맵 차트](#-로드맵-차트)
+- [거래 옵션](#-거래-옵션)
+- [프로젝트 참여 방법](#-프로젝트-참여-방법)
+- [라이센스](#-라이센스)
 
 ---
 
-## 🎯 Motivation
+## 🎯 동기
 
-NFT projects have faced numerous challenges over time. One of these issues is the **non-adherence to the promises of the roadmap after minting**, which has caused several problems such as:
+시간이 지남에 따라 NFT 프로젝트는 여러 도전을 맞닥뜨렸습니다. 이 중 하나는 **Minting 이후 로드맵의 약속을 지키지 않는 문제**로, 이로 인해 여러 문제가 발생하였습니다:
 
-- **Rug Pull**: Phenomenon of project developers disappearing without fulfilling the promises of the roadmap after fundraising.
-- **Approve Attack**: Hackers abusing granted access rights to steal user's funds.
-- **Community Destruction**: Traders buying a large amount of NFTs initially, then using it for future sales purposes.
-- **Value Decrease Issue**: Difficulty in maintaining the value of NFT even after the completion of the roadmap.
-- **Royalty Dependency**: Issues related to the functionality of royalties heavily depending on a particular marketplace.
+- **Rug Pull**: 펀드 모금 후 로드맵의 약속을 이행하지 않고 프로젝트 개발자가 사라지는 현상.
+- **Approve Attack**: 해커들이 부여된 접근 권한을 남용하여 사용자의 자금을 도용하는 문제.
+- **커뮤니티 파괴**: NFT를 초기에 대량으로 구매한 후 이를 미래 판매 목적으로 사용하는 트레이더들.
+- **가치 감소 문제**: 로드맵이 완료된 후에도 NFT의 가치를 유지하는데 어려움.
+- **로열티 의존성**: 로열티 기능이 특정 마켓플레이스에 과도하게 의존하는 문제.
 
-These problems have harmed the soundness of the NFT projects and posed significant obstacles to their growth.
+이 문제들은 NFT 프로젝트의 건전성을 해치고 그 성장에 중대한 장애를 초래했습니다.
 
-## 💡 Solution
+## 💡 해결책
 
-In order to address these issues, we have developed the "**Roadmap-Token**" program. This program can manage the minting, transfer, trading, and progression to the next step of the NFT project safely. Through this, we provide the following solutions:
+이 문제들을 해결하기 위해, 우리는 "**Roadmap-Token**" 프로그램을 개발하였습니다. 이 프로그램은 NFT 프로젝트의 Minting, 이전, 거래, 그리고 다음 단계로의 진행을 안전하게 관리할 수 있습니다. 이를 통해, 우리는 다음과 같은 해결책을 제공합니다:
 
-- **Limiting fund withdrawal by roadmap stages**: By setting only a certain percentage of the funds to be withdrawable at each stage, it prevents developers from ignoring the roadmap and withdrawing all funds at once.
-- **Liquidation through voting**: Enables democratic operation by deciding the liquidation of the project through the vote of community participants.
-- **Automatic refund procedure**: Provides a feature that automatically refunds to participants if the goal is not achieved.
-- **Enforcing 1 mint per person**: Prevents a person from owning an excessive number of NFTs and distorting the market.
-- **Removal of Approve feature**: Protects users from hackers' Approve attacks by removing this feature.
-- **Direct trading feature at the token level**: Solves the problem of royalty dependency by providing a trading feature directly from the token itself, independent of the marketplace.
+- **로드맵 단계별로 자금 인출 제한**: 각 단계에서 일정 비율의 자금만 인출할 수 있게 설정하여, 개발자들이 로드맵을 무시하고 모든 자금을 한 번에 인출하는 것을 방지합니다.
+- **투표를 통한 청산**: 커뮤니티 참가자의 투표를 통해 프로젝트의 청산을 결정함으로써 민주적 운영을 가능하게 합니다.
+- **자동 환불 절차**: 목표가 달성되지 않을 경우 참가자에게 자동으로 환불하는 기능을 제공합니다.
+- **1인당 1 Mint 강제화**: 한 사람이 과도하게 많은 NFT를 소유하고 시장을 왜곡하는 것을 방지합니다.
+- **Approve 기능 제거**: 이 기능을 제거하여 사용자가 해커들의 Approve 공격으로부터 보호됩니다.
+- **토큰 레벨에서의 직접 거래 기능**: 마켓플레이스에 독립적으로 토큰 자체에서 거래 기능을 제공하여 로열티 의존성 문제를 해결합니다.
 
-Through the "**Roadmap-Token**" program, we expect an improvement in the trustworthiness and transparency of NFT projects.
+"**Roadmap-Token**" 프로그램을 통해, 우리는 NFT 프로젝트의 신뢰성과 투명성이 향상될 것을 기대합니다.
 
-## 🔧 Features
-- **Construct:** Set up the parameters required to start the project.
-- **Mint:** Manage the mint process.
-- **Transfer:** Handle the transfer of ownership of NFT.
-- **Trade:** Manage the trade of NFT.
-- **NextStep:** Handle the transition to the next step of the project.
-- **Liquidate:** Handle the liquidation of funds.
-- **Refund:** Manage the refund procedure if the goal is not achieved.
-- **No approve:** Remove the approve feature to prevent hacking.
-- **Chart with roadmap:** Provide a feature that reflects the roadmap stages in the price chart.
+## 🔧 기능
+- **구축**: 프로젝트를 시작하는 데 필요한 파라미터를 설정합니다.
+- **Mint**: Mint 과정을 관리합니다.
+- **이전**: NFT의 소유권 이전을 처리합니다.
+- **거래**: NFT의 거래를 관리합니다.
+- **다음 단계**: 프로젝트의 다음 단계로의 전환을 처리합니다.
+- **청산**: 자금의 청산을 처리합니다.
+- **환불**: 목표가 달성되지 않았을 경우 환불 절차를 관리합니다.
+- **Approve 없음**: 해킹을 방지하기 위해 Approve 기능을 제거합니다.
+- **로드맵과 함께 차트**: 가격 차트에 로드맵 단계를 반영하는 기능을 제공합니다.
 
-## 🏗️ Domain Structure
+## 🏗️ 도메인 구조
 OracleManager -> OnePerPersonToken -> GovernanceToken -> SelfTradeableToken -> MintableToken -> RoadmapToken
 
-## 📈 Roadmap Chart
-(TBA - To be Added)
+## 📈 로드맵 차트
+(TBA - 추가 예정)
 
-## 📝 Trading Options
-Options for trading are provided. You can set it to be untradeable by stages. You can limit the trading even after all stages have been completed.
+## 📝 거래 옵션
+거래에 대한 옵션을 제공합니다. 단계별로 거래를 할 수 없게 설정할 수 있습니다. 모든 단계가 완료된 후에도 거래를 제한할 수 있습니다.
 
-## 🤝 How to Participate in the Project
-This project is an open source project and you can participate at any time. To contribute to the project, please create a Pull Request or create an issue.
+## 🤝 프로젝트 참여 방법
+이 프로젝트는 오픈 소스 프로젝트로, 언제든지 참여할 수 있습니다. 프로젝트에 기여하려면, Pull Request를 만들거나 이슈를 생성해주세요.
 
-## 📄 License
-(TBA - To be Added)
+## 📄 라이센스
+(TBA - 추가 예정)
