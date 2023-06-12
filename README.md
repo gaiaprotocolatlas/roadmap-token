@@ -1,6 +1,6 @@
 # Roadmap-Token 🚀
 <div align="center">
-    <img src="https://example.com/path/to/logo.png" alt="Roadmap-Token Logo">
+    <img src="[https://example.com/path/to/logo.png](https://v1.gaiaprotocol.com/images/logo/gaia-protocol-text.png)" alt="Roadmap-Token Logo">
     <h3>An initiative to ensure adherence to roadmaps by NFT projects post-fundraising</h3>
 </div>
 
