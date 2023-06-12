@@ -1,63 +1,80 @@
 # Roadmap-Token 🚀
+<div align="center">
+    <img src="https://example.com/path/to/logo.png" alt="Roadmap-Token Logo">
+    <h3>An initiative to ensure adherence to roadmaps by NFT projects post-fundraising</h3>
+</div>
 
-Roadmap-Token은 NFT 프로젝트들이 모금 후 로드맵을 제대로 이행하지 않는 문제를 해결하기 위한 프로그램입니다. 이 프로그램을 통해, NFT 프로젝트의 민팅, 트랜스퍼, 트레이드, 그리고 다음 단계 진행 등을 안전하게 관리할 수 있습니다.
+> Note: This program aims to manage safely the minting, transferring, trading, and advancement of the NFT projects to the next steps.
 
-## 목차
-1. 모티베이션
-2. 해결 방안
-3. 기능 
-4. 도메인 구조
-5. 프로젝트 폴더 및 구조
-6. 로드맵 차트
-7. 거래 옵션
-8. 문서 작성 및 변경 이력
-9. 프로젝트 참여 방법
-10. 라이선스
+---
 
-## **1. 모티베이션**
-NFT 프로젝트들은 시간이 지나며 수많은 도전 과제에 직면해 왔습니다. 그 중 하나는 **민팅 이후 로드맵의 약속을 제대로 이행하지 못하는 경우**로, 이는 다음과 같은 여러 문제를 초래하였습니다.
+- [Motivation](#-motivation)
+- [Solution](#-solution)
+- [Features](#-features)
+- [Domain Structure](#-domain-structure)
+- [Project Folder and Structure](#-project-folder-and-structure)
+- [Roadmap Chart](#-roadmap-chart)
+- [Trading Options](#-trading-options)
+- [Document Writing and Revision History](#-document-writing-and-revision-history)
+- [How to Participate in the Project](#-how-to-participate-in-the-project)
+- [License](#-license)
 
-- **러그풀**: 프로젝트 개발자들이 모금 후 로드맵의 약속을 지키지 않고 사라지는 현상.
-- **Approve 공격**: 해커들이 허가된 액세스 권한을 남용하여 사용자의 자금을 훔치는 공격.
-- **커뮤니티 파괴**: 트레이더들이 초기에 대량의 NFT를 구매한 후, 이를 추후 판매 목적으로 활용하는 경우.
-- **가치 하락 문제**: 로드맵이 완료된 이후에도 NFT의 가치를 유지하는 데 어려움이 있는 상황.
-- **로열티 의존성**: 로열티 관련 기능이 특정 마켓플레이스에 과도하게 의존하는 문제.
+---
 
-이러한 문제들은 NFT 프로젝트의 건전성을 해치고, 프로젝트의 성장을 방해하는 큰 장애물로 작용해 왔습니다.
+## 🎯 Motivation
 
-## **2. 해결 방안**
-이렇게 발생한 문제들을 해결하고자, 우리는 "**Roadmap-Token**" 프로그램을 개발하였습니다. 이 프로그램은 NFT 프로젝트의 민팅, 트랜스퍼, 트레이드, 그리고 다음 단계로의 진행을 안전하게 관리할 수 있습니다. 이를 통해 다음과 같은 방안을 제공합니다.
+NFT projects have faced numerous challenges over time. One of these issues is the **non-adherence to the promises of the roadmap after minting**, which has caused several problems such as:
 
-- **로드맵 단계별 자금 인출 제한**: 각 단계별로 지정된 비율의 자금만 인출 가능하도록 설정하여, 개발자들이 로드맵을 무시하고 자금을 일괄 인출하는 것을 방지합니다.
-- **투표를 통한 청산 기능**: 커뮤니티 참가자들의 투표에 의해 프로젝트 청산을 결정하게 함으로써 민주적인 운영을 가능하게 합니다.
-- **자동 환불 절차**: 목표 달성 실패 시 참여자들에게 자동으로 환불하는 기능을 제공합니다.
-- **1인 1개 민트 강제**: 한 사람이 과도한 수의 NFT를 소유해 시장을 왜곡하는 것을 방지합니다.
-- **Approve 기능 제거**: 해커들의 Approve 공격으로부터 사용자를 보호하기 위해 이 기능을 제거합니다.
-- **토큰 차원에서 직접 제공하는 거래 기능**: 마켓플레이스에 의존하지 않고 토큰 자체에서 거래 기능을 제공함으로써 로열티 의존성 문제를 해결합니다.
+- **Rug Pull**: Phenomenon of project developers disappearing without fulfilling the promises of the roadmap after fundraising.
+- **Approve Attack**: Hackers abusing granted access rights to steal user's funds.
+- **Community Destruction**: Traders buying a large amount of NFTs initially, then using it for future sales purposes.
+- **Value Decrease Issue**: Difficulty in maintaining the value of NFT even after the completion of the roadmap.
+- **Royalty Dependency**: Issues related to the functionality of royalties heavily depending on a particular marketplace.
 
-이렇게 "**Roadmap-Token**" 프로그램을 통해, NFT 프로젝트의 신뢰성과 투명성이 향상될 것을 기대합니다.
+These problems have harmed the soundness of the NFT projects and posed significant obstacles to their growth.
 
-## 3. 기능 설명
-- **Construct:** 프로젝트를 시작하기 위해 필요한 파라미터를 설정합니다.
-- **Mint:** 민트 프로세스를 관리합니다.
-- **Transfer:** NFT의 소유권 이전을 처리합니다.
-- **Trade:** NFT의 거래를 관리합니다.
-- **NextStep:** 프로젝트의 다음 단계로 넘어가는 것을 처리합니다.
-- **Liquidate:** 자금을 청산하는 기능을 담당합니다.
-- **Refund:** 목표 달성 실패 시 환불 절차를 관리합니다.
-- **No approve:** 해킹을 방지하기 위해 허가 기능을 제거합니다.
-- **Chart with roadmap:** 로드맵 단계를 가격 차트에 반영하는 기능을 제공합니다.
+## 💡 Solution
 
-## 4. 도메인 구조
+In order to address these issues, we have developed the "**Roadmap-Token**" program. This program can manage the minting, transfer, trading, and progression to the next step of the NFT project safely. Through this, we provide the following solutions:
+
+- **Limiting fund withdrawal by roadmap stages**: By setting only a certain percentage of the funds to be withdrawable at each stage, it prevents developers from ignoring the roadmap and withdrawing all funds at once.
+- **Liquidation through voting**: Enables democratic operation by deciding the liquidation of the project through the vote of community participants.
+- **Automatic refund procedure**: Provides a feature that automatically refunds to participants if the goal is not achieved.
+- **Enforcing 1 mint per person**: Prevents a person from owning an excessive number of NFTs and distorting the market.
+- **Removal of Approve feature**: Protects users from hackers' Approve attacks by removing this feature.
+- **Direct trading feature at the token level**: Solves the problem of royalty dependency by providing a trading feature directly from the token itself, independent of the marketplace.
+
+Through the "**Roadmap-Token**" program, we expect an improvement in the trustworthiness and transparency of NFT projects.
+
+## 🔧 Features
+- **Construct:** Set up the parameters required to start the project.
+- **Mint:** Manage the mint process.
+- **Transfer:** Handle the transfer of ownership of NFT.
+- **Trade:** Manage the trade of NFT.
+- **NextStep:** Handle the transition to the next step of the project.
+- **Liquidate:** Handle the liquidation of funds.
+- **Refund:** Manage the refund procedure if the goal is not achieved.
+- **No approve:** Remove the approve feature to prevent hacking.
+- **Chart with roadmap:** Provide a feature that reflects the roadmap stages in the price chart.
+
+## 🏗️ Domain Structure
 OracleManager -> OnePerPersonToken -> GovernanceToken -> SelfTradeableToken -> MintableToken -> RoadmapToken
 
-## 5. 거래 옵션
-거래를 할 수 있는 옵션을 제공합니다. 단계별로 거래 불가능하도록 설정할 수 있습니다. 모든 단계가 완료된 후에도 거래를 제한할 수 있습니다.
+## 📂 Project Folder and Structure
+(TBA - To be Added)
 
-## 6. 문서 작성 및 변경 이력
-- 2023-06-12: 초안 작성
-- ... (추후 변경 내역을 여기에 작성)
+## 📈 Roadmap Chart
+(TBA - To be Added)
 
-## 7. 프로젝트 참여 방법
-해당 프로젝트는 오픈소스 프로젝트로, 언제든지 참여하실 수 있습니다. 프로젝트에 기여하려면 Pull Request를 생성하거나 이슈를 생성해 주세요.
+## 📝 Trading Options
+Options for trading are provided. You can set it to be untradeable by stages. You can limit the trading even after all stages have been completed.
 
+## 📚 Document Writing and Revision History
+- 2023-06-12: First draft written
+- ... (Additional changes will be documented here)
+
+## 🤝 How to Participate in the Project
+This project is an open source project and you can participate at any time. To contribute to the project, please create a Pull Request or create an issue.
+
+## 📄 License
+(TBA - To be Added)
