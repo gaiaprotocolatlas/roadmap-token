@@ -60,18 +60,11 @@ Through the "**Roadmap-Token**" program, we expect an improvement in the trustwo
 ## 🏗️ Domain Structure
 OracleManager -> OnePerPersonToken -> GovernanceToken -> SelfTradeableToken -> MintableToken -> RoadmapToken
 
-## 📂 Project Folder and Structure
-(TBA - To be Added)
-
 ## 📈 Roadmap Chart
 (TBA - To be Added)
 
 ## 📝 Trading Options
 Options for trading are provided. You can set it to be untradeable by stages. You can limit the trading even after all stages have been completed.
-
-## 📚 Document Writing and Revision History
-- 2023-06-12: First draft written
-- ... (Additional changes will be documented here)
 
 ## 🤝 How to Participate in the Project
 This project is an open source project and you can participate at any time. To contribute to the project, please create a Pull Request or create an issue.
